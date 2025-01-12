@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "618162452829",
+    "project_id": "musemate-ad710",
+    "storage_bucket": "musemate-ad710.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618162452829:android:ccfae9d3e32ece80c5d0b4",
+        "android_client_info": {
+          "package_name": "com.example.first"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp_ApiQtJPh9sTBTswTF1XrQcFX4Hmvi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618162452829:android:49edeea3ff4c2255c5d0b4",
+        "android_client_info": {
+          "package_name": "com.musemate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp_ApiQtJPh9sTBTswTF1XrQcFX4Hmvi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
