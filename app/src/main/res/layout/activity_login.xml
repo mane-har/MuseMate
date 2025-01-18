@@ -8,15 +8,17 @@
     tools:context=".LoginActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/bgbeige">
+    android:background="@drawable/Flux_Dev_for_my_social_music_app_i_need_background_i_need_it_t_2">
+
+
+
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,7 +26,7 @@
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
             android:padding="24dp"
-            android:background="@drawable/custom_edittext">
+            android:background="@drawable/border">
 
             <TextView
                 android:layout_width="match_parent"
@@ -32,17 +34,18 @@
                 android:text="Login"
                 android:textSize="36sp"
                 android:textAlignment="center"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/bg"/>
 
             <EditText
-                android:id="@+id/login_email"
+                android:id="@+id/login_username"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/custom_edittext"
+                android:background="@drawable/border"
                 android:layout_marginTop="40dp"
                 android:padding="8dp"
-                android:hint="Email"
-                android:drawableLeft="@drawable/baseline_person_24"
+                android:hint="Username"
+                android:drawableLeft="@drawable/baseline_account_circle_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
 
@@ -50,10 +53,10 @@
                 android:id="@+id/login_password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/custom_edittext"
+                android:background="@drawable/border"
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
-                android:hint="Email"
+                android:hint="Password"
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
@@ -63,27 +66,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="Login"
-                android:textSize="18sp"
-                android:layout_marginTop="30dp"
-                android:backgroundTint="@color/mug"
-                app:cornerRadius = "20dp"/>
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"/>
 
             <TextView
                 android:id="@+id/signupRedirectText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Not registered yet? Sign up"
                 android:layout_gravity="center"
-                android:text="Not yet registered? Sign up"
                 android:padding="8dp"
                 android:layout_marginTop="10dp"
-                android:textColor="@color/mug"
                 android:textSize="18sp"/>
 
 
+
+
+
         </LinearLayout>
-
-
     </androidx.cardview.widget.CardView>
+
 
 
 
